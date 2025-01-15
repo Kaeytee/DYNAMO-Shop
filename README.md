@@ -1,4 +1,4 @@
-# MERN Ecommerce
+# DYNAMO-Shop 
 
 ## Description
 
