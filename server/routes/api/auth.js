@@ -120,7 +120,7 @@ router.post('/register', async (req, res) => {
       password,
       firstName,
       lastName,
-      role: role || 'ROLE ADMIN' // Default role is 'ROLE MEMBER'
+      role: role || 'ROLE MEMBER' // Default role is 'ROLE MEMBER'
     });
 
     const salt = await bcrypt.genSalt(10);
